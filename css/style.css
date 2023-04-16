@@ -1,0 +1,112 @@
+/*reset*/
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos de generales*/
+
+body {
+    background-color: rgb(154, 14, 255);
+}
+
+/* Estilos de Header*/
+
+header {
+    text-align: center;
+    padding: 15px;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.color-barra {
+    color: yellow;
+}
+
+.color-barra:hover {
+    border-bottom: 3px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+main p {
+    font-family: 'Libre Baskerville', serif;
+}
+
+/*Estilos de index*/
+
+main {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+body h2 a {
+    text-decoration: none;
+    color: rgb(185, 175, 27);
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main div h2 {
+    gap: 5rem;
+}
+
+main div img {
+    width: 35%;
+    height: 35%;
+    object-fit: cover;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+body main div img {
+    width: 30%;
+    height: 25%;
+    object-fit: cover;
+}
+
+/*mq de tablet*/
+
+@media screen and (min-width:768px) {
+    body {
+        background-color: tomato;
+    }
+
+.home{
+    display: flex;
+    flex-direction: row;
+}
+}
+
+/*mq de desktop*/
+
+@media screen and (min-width:1024px) {
+
+    body {
+        background-color: burlywood;
+    }
+}
+
