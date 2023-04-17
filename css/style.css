@@ -74,9 +74,6 @@ main div h2 {
 /*mq de tablet*/
 
 @media screen and (min-width:768px) {
-    body {
-        background-color: tomato;
-    }
 
     .home {
         display: flex;
@@ -85,7 +82,7 @@ main div h2 {
 
     .imagenes {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
         grid-template-areas: 1fr 1fr ;
     }
 
